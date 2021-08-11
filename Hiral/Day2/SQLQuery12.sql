@@ -1,2 +1,0 @@
-UPDATE Employees SET JobID ='SH_CLERK' WHERE EmployeeID=118 AND DepartmentID=30 AND NOT JobID LIKE 'SH%'
-SELECT * FROM Employees
