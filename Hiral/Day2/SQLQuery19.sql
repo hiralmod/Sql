@@ -1,0 +1,1 @@
+SELECT salary FROM Employees WHERE salary BETWEEN 5000 AND 8000

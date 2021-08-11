@@ -1,0 +1,1 @@
+SELECT FirstName as employeeName FROM Employees
