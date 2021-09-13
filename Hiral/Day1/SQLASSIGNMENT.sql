@@ -6,7 +6,7 @@ Lastname VARCHAR (15)NOT NULL,
 Phonenumber NUMERIC(10)NOT NULL,
 Email VARCHAR (15),
 Salary money NOT NULL,
-Commission float NOT NULL
+Commission int null
 )
 
 Create table Inventory
@@ -25,8 +25,8 @@ productid int constraint Pfkey references Inventory(productid) on update cascade
 )
 
 
-insert into Employee values('abc','bcd','2345678910','gjghh','10000',0.12)
-insert into Employee values('dfg','jgj','2323354657','vfvdv','8000',0.10)
+insert into Employee values('abc','bcd','2345678910','gjghh','10000')
+insert into Employee values('dfg','jgj','2323354657','vfvdv','8000')
 
 insert into inventory values('Bolero',10)
 insert into inventory values('maruti',15)
